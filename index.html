@@ -57,8 +57,10 @@
         </header>
 
         <main class="px-3">
-            <h1>Comunidad 2.0</h1>
-            <p class="lead">Hecha por alumnos del ITAM para alumnos del ITAM. Verano 2021.</p>
+            <div class="chem"></div>
+            
+            <br>
+            <p class="lead">Para alumnos del ITAM por invitación</p>
             <p class="lead">
                 <!--
                 <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">IPhone</a>
@@ -68,9 +70,16 @@
         </main>
 
         <footer class="mt-auto text-white-50">
-            <p><a href="https://youtu.be/dQw4w9WgXcQ" class="text-dark">Contacto</a></p>
+           
         </footer>
     </div>
+    <script>
+
+        var path = 'assets/images/',
+    imgs = ['artista.png','audifonos.png','cientifico.png','desvelado.png','emo.png','feminista.png','fifas.png','inge.png','lagrima.png','lentes.png','malandro.png','otaku.png','primersemestrino.png','regular.png'],
+    i = Math.floor(Math.random()*imgs.length);
+$('.chem').append("<img height=300 width=300 src='"+path+imgs[i]+"'>").hide().fadeIn(500);
+    </script>
 
 
 
