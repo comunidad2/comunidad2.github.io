@@ -36,3 +36,26 @@
     color: #fff;
     border-bottom-color: #fff;
   }
+
+  
+
+  a:link {
+    color: grey;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: grey;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: grey;
+    text-decoration: underline;
+  }
+  
